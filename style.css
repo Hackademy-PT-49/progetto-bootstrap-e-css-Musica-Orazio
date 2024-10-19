@@ -11,7 +11,7 @@
     color: var(--color-s);
 }
 .color-a{
-    color:greenyellow ;
+    color:whitesmoke ;
 }
 
 .title{
@@ -33,13 +33,12 @@ width: 250px;
 .nav-cus{
     margin: 5vh 10vw;
     border-radius: 10px;
-    border: 2px solid greenyellow;
+    border: 2px solid green;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
 }
 .imglogosito{
     height:200px ;
-   
 }
 
 
@@ -56,12 +55,13 @@ width: 250px;
 .main-title{
     font-size: calc(5px + 4vw);
     letter-spacing: 1vw;
-    text-shadow: 2px 2px 15px greenyellow  ;
+    text-shadow: 2px 2px 15px green  ;
 }
 
 .arrow-anim{
     color: var(--color-s);
-    text-shadow: 2px 2px 15px greenyellow;
+    text-shadow: 2px 2px 15px green
+    ;
     animation: scroll-down 1.5s alternate infinite ease-in;
 }
 
@@ -77,26 +77,12 @@ width: 250px;
 
 .img-carousel-1{
     height: 100vh;
-    background: url(./media/MUSICA\ INIZIO.jpg);
+    background: url(./media/ai-generated-8548348_1280.webp);
     background-position: center;
     background-size: cover;
     object-fit:contain;
 }
-.img-carousel-2{
-    height: 100vh;
-    background: url(./media/MUSICA\ INIZIO\ 4.jpg);
-    background-position: center;
-    background-size: cover;
-    object-fit: contain;
-}
 
-.img-carousel-3{
-    height: 100vh;
-    background: url(./media/MUSICA\ NOTE\ INIZIO.jpg);
-    background-position: center;
-    background-size: cover;
-    object-fit: contain;
-}
 
 
 /* SEZIONE CARDS  */
@@ -113,7 +99,7 @@ width: 250px;
 
 .card-custom:hover{
     transform: translateY(-50px);
-    border: 2px solid greenyellow;
+    border: 2px solid green;
     z-index: 2;
 }
 
@@ -123,15 +109,16 @@ width: 250px;
     text-decoration: none;
     color: var(--color-s);
     background-color: transparent;
-    border: 2px solid greenyellow;
+    border: 2px solid green;
     border-radius: 5px;
     padding: 5px 20px;
-    box-shadow: 0px 0px 10px greenyellow;
+    box-shadow: 0px 0px 10px green
+    ;
     transition: .5s;
 }
 
 .btn-custom:hover{
-    background-color: greenyellow;
+    background-color: green;
 
 }
 
@@ -159,7 +146,8 @@ width: 250px;
         margin: 0px;
         border-radius: 0px;
         border: none;
-        border-bottom: 2px solid greenyellow;
+        border-bottom: 2px solid green
+        ;
     }
     
 }
