@@ -1,0 +1,174 @@
+:root{
+    --color-p: rgb(16, 16, 16);
+    --color-s: rgb(248, 248, 248);
+    --color-a: yellow;
+    --color-x: green;
+    --title-font: "Anton", sans-serif;
+    --text-font: "Play", serif;
+}
+
+.color-s{
+    color: var(--color-s);
+}
+.color-a{
+    color:greenyellow ;
+}
+
+.title{
+    font-family: var(--title-font);
+}
+
+*{
+    font-family: var(--text-font);
+}
+body{
+    background-color: var(--color-p);
+}
+
+/* NAVBAR */
+.logo{
+width: 250px;
+}
+
+.nav-cus{
+    margin: 5vh 10vw;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+.imglogosito{
+    height:200px ;
+    width: ;
+}
+
+
+/* HEADER  */
+.main-title-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--color-s);
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+.main-title{
+    font-size: calc(5px + 4vw);
+    letter-spacing: 1vw;
+    text-shadow: 2px 2px 15px greenyellow  ;
+}
+
+.arrow-anim{
+    color: var(--color-s);
+    text-shadow: 2px 2px 15px greenyellow;
+    animation: scroll-down 1.5s alternate infinite ease-in;
+}
+
+
+@keyframes scroll-down {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}
+
+.img-carousel-1{
+    height: 100vh;
+    background: url(./media/MUSICA\ INIZIO.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit:contain;
+}
+.img-carousel-2{
+    height: 100vh;
+    background: url(./media/MUSICA\ INIZIO\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+}
+
+.img-carousel-3{
+    height: 100vh;
+    background: url(./media/MUSICA\ NOTE\ INIZIO.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+}
+
+
+/* SEZIONE CARDS  */
+.img-card-cus{
+    aspect-ratio: 1/0.7;
+}
+
+.card-custom{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.card-custom:hover{
+    transform: translateY(-50px);
+    border: 2px solid greenyellow;
+    z-index: 2;
+}
+
+
+
+.btn-custom{
+    text-decoration: none;
+    color: var(--color-s);
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 10px greenyellow;
+    transition: .5s;
+}
+
+.btn-custom:hover{
+    background-color: greenyellow;
+
+}
+
+
+/* SEZIONE MUSICA FINE  */
+.img-musica{
+    width: 100%;
+    aspect-ratio: 1/0.7;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .nav-cus{
+        margin: 0px;
+        border-radius: 0px;
+        border: none;
+        border-bottom: 2px solid greenyellow;
+    }
+    
+}
+
+.imgLogoMusica{
+    min-height: 150px;
+    object-fit: contain;
+}
+
+
+
+
